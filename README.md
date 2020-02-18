@@ -9,7 +9,7 @@ See [action.yml](action.yml)
 Basic:
 ```yaml
 steps:
-- uses: nyaruka/elasticsearch@v1
+- uses: nyaruka/elasticsearch-action@v1
   with:
     elastic version: '6.8.5'  # See https://hub.docker.com/_/elasticsearch for available versions
 ```
